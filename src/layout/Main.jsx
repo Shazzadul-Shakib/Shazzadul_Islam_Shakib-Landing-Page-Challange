@@ -6,6 +6,7 @@ import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header-sm";
 import HeroWraper from "../components/Hero/HeroWraper";
 import Poster from "../components/Poster/Poster";
+import Products from "../components/Products/Products";
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <HeroWraper />
         <Poster />
         <AboutUs/>
+        <Products/>
       </section>
 
       {/* Footer section */}
