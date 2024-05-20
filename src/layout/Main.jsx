@@ -1,8 +1,10 @@
+import Postercard from "../components/Cards/Postercard/Postercard";
 import Footer from "../components/Footer/Footer";
 import FooterSm from "../components/Footer/Footer-sm";
 import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header-sm";
 import HeroWraper from "../components/Hero/HeroWraper";
+import Poster from "../components/Poster/Poster";
 
 const Main = () => {
   return (
@@ -14,14 +16,15 @@ const Main = () => {
       </section>
 
       {/* Body section */}
-      <section >
-        <HeroWraper/>
+      <section>
+        <HeroWraper />
+        <Poster />
       </section>
 
       {/* Footer section */}
       <section className=" bottom-0">
         <Footer />
-        <FooterSm/>
+        <FooterSm />
       </section>
     </div>
   );
