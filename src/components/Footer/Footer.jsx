@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <main className=" hidden lg:block my-[30px] mx-[100px] xl:mx-[240px] ">
       {/* Upper body */}
-      <section className=" flex items-center">
+      <section className=" flex items-center mb-[40px]">
         {/* Logo and Icon section */}
         <div className=" flex-1 flex flex-col gap-[30px] pr-10">
           <div>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div>
             <h1 className=" text-xl font-bold mb-[32px]">Support</h1>
 
-            <ul className=" flex flex-col gap-[10px]">
+            <ul className=" flex flex-col gap-[10px] text-xs">
               <li>Privacy Policy</li>
               <li>Terms & Conditions</li>
               <li>Product FAQs</li>
@@ -50,7 +50,7 @@ const Footer = () => {
           <div>
             <h1 className=" text-xl font-bold mb-[32px]">Quick Links</h1>
 
-            <ul className=" flex flex-col gap-[10px]">
+            <ul className=" flex flex-col gap-[10px] text-xs">
               <li>About Us</li>
               <li>Blog Post</li>
               <li>Product Features</li>
@@ -63,7 +63,7 @@ const Footer = () => {
           <div>
             <h1 className=" text-xl font-bold mb-[32px]">Community</h1>
 
-            <ul className=" flex flex-col gap-[10px]">
+            <ul className=" flex flex-col gap-[10px] text-xs">
               <li>Become an affiliate</li>
               <li>Help Center</li>
               <li>Product FAQs</li>

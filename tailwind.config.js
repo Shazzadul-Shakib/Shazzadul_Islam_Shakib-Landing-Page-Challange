@@ -14,6 +14,7 @@ module.exports = {
         crdBD3: "#FFC3C6",
         crdBD3L1: "#FFEAD0",
         crdBD3L2: "#FFF9F1",
+        carBg: "#EAEAEA",
       },
     },
   },

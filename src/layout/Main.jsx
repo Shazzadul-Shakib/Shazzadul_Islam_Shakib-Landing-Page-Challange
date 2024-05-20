@@ -2,10 +2,11 @@ import Footer from "../components/Footer/Footer";
 import FooterSm from "../components/Footer/Footer-sm";
 import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header-sm";
+import Hero from "../components/Hero/Hero";
 
 const Main = () => {
   return (
-    <div>
+    <div className=" min-h-[100dvh] relative">
       {/* Header section */}
       <section>
         <Header />
@@ -13,10 +14,12 @@ const Main = () => {
       </section>
 
       {/* Body section */}
-      <h1>This is body part</h1>
+      <section>
+        <Hero/>
+      </section>
 
       {/* Footer section */}
-      <section>
+      <section className=" bottom-0">
         <Footer />
         <FooterSm/>
       </section>
