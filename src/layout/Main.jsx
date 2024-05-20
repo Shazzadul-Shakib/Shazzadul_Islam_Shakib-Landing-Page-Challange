@@ -2,7 +2,7 @@ import Footer from "../components/Footer/Footer";
 import FooterSm from "../components/Footer/Footer-sm";
 import Header from "../components/Header/Header";
 import HeaderSm from "../components/Header/Header-sm";
-import Hero from "../components/Hero/Hero";
+import HeroWraper from "../components/Hero/HeroWraper";
 
 const Main = () => {
   return (
@@ -14,8 +14,8 @@ const Main = () => {
       </section>
 
       {/* Body section */}
-      <section>
-        <Hero/>
+      <section >
+        <HeroWraper/>
       </section>
 
       {/* Footer section */}
