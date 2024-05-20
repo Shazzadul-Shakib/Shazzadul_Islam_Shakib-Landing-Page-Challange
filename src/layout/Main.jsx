@@ -1,3 +1,4 @@
+import AboutUs from "../components/AboutUs/AboutUs";
 import Postercard from "../components/Cards/Postercard/Postercard";
 import Footer from "../components/Footer/Footer";
 import FooterSm from "../components/Footer/Footer-sm";
@@ -19,6 +20,7 @@ const Main = () => {
       <section>
         <HeroWraper />
         <Poster />
+        <AboutUs/>
       </section>
 
       {/* Footer section */}
