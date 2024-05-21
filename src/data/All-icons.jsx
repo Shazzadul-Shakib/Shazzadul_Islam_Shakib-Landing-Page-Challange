@@ -2,6 +2,7 @@ import { FaCartShopping, FaLinkedinIn, FaMoneyCheck, FaRegHeart, FaSquareInstagr
 import { IoIosSearch } from "react-icons/io";
 import { MdMenuOpen } from "react-icons/md";
 import { PiSunglassesFill } from "react-icons/pi";
+import { RxCrossCircled } from "react-icons/rx";
 import { TiSocialTwitter } from "react-icons/ti";
 
 export const allIcons = {
@@ -16,4 +17,5 @@ export const allIcons = {
   glasses: <PiSunglassesFill />,
   payment: <FaMoneyCheck />,
   love: <FaRegHeart />,
+  cross: <RxCrossCircled />,
 };

@@ -1,7 +1,10 @@
 import ProductCard from "../Cards/productCard/ProductCard";
 import { ProductsData } from "../../../public/productsData";
+import useCartStore from "../../store/useCartStore";
 
 const Products = () => {
+  const addToCart = useCartStore((state) => state.addToCart);
+  
   return (
     <main className=" m-[30px] lg:my-[127px] lg:mx-[30px] xl:mx-[200px]">
       {/* Header section of Products */}
@@ -28,7 +31,11 @@ const Products = () => {
       {/* Cards section */}
       <section className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-[30px] my-[60px]">
         {ProductsData?.map((product) => (
-          <ProductCard key={product.productId} product={product} />
+          <ProductCard
+            key={product.productId}
+            product={product}
+            onAddToCart={addToCart}
+          />
         ))}
       </section>
     </main>

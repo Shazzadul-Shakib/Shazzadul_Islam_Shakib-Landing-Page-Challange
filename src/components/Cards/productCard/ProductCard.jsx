@@ -5,10 +5,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { allIcons } from "../../../data/All-icons";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, onAddToCart }) => {
   const swiperRef = useRef(null);
   const { love } = allIcons;
-  
+
   // Start autoplay on mouse hover
   const handleMouseEnter = () => {
     if (swiperRef.current && swiperRef.current.swiper) {
@@ -81,7 +81,7 @@ const ProductCard = ({ product }) => {
               $ {product.productPrice}
             </h2>
           )}
-          <button>Add To Cart</button>
+          <button onClick={() => onAddToCart(product)}>Add To Cart</button>
         </div>
       </section>
     </main>
