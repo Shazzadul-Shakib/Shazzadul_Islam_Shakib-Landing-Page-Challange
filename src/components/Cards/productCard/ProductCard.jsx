@@ -61,6 +61,42 @@ const ProductCard = ({ product, onAddToCart }) => {
                 <img src={product.productImage} alt="Glasses picture" />
               </div>
             </SwiperSlide>
+            <SwiperSlide className="relative flex items-center justify-center h-full bg-carBg text-2xl">
+              {/* Favourite and sell */}
+              <div>
+                {product.productSale > 0 && (
+                  <div className="absolute top-[30px] left-[30px] h-[50px] w-[50px] rounded-full bg-crdBD1 text-sm font-bold flex justify-center items-center">
+                    {product.productSale}%
+                  </div>
+                )}
+                <div className="absolute top-[30px] right-[30px] h-[50px] w-[50px] border border-txtD2 rounded-full text-txtD1 font-bold flex justify-center items-center">
+                  {love}
+                </div>
+              </div>
+
+              {/* Image */}
+              <div className="absolute w-[90%] mx-auto">
+                <img src={product.productImage} alt="Glasses picture" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="relative flex items-center justify-center h-full bg-carBg text-2xl">
+              {/* Favourite and sell */}
+              <div>
+                {product.productSale > 0 && (
+                  <div className="absolute top-[30px] left-[30px] h-[50px] w-[50px] rounded-full bg-crdBD1 text-sm font-bold flex justify-center items-center">
+                    {product.productSale}%
+                  </div>
+                )}
+                <div className="absolute top-[30px] right-[30px] h-[50px] w-[50px] border border-txtD2 rounded-full text-txtD1 font-bold flex justify-center items-center">
+                  {love}
+                </div>
+              </div>
+
+              {/* Image */}
+              <div className="absolute w-[90%] mx-auto">
+                <img src={product.productImage} alt="Glasses picture" />
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
         <div>
