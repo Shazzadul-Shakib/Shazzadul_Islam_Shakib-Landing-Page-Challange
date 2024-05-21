@@ -1,6 +1,8 @@
+import ProductCard from "../Cards/productCard/ProductCard";
+
 const Products = () => {
   return (
-    <main className=" m-[30px] lg:my-[127px] lg:mx-[240px]">
+    <main className=" m-[30px] lg:my-[127px] lg:mx-[30px] xl:mx-[200px]">
       {/* Header section of Products */}
       <h1 className=" text-center text-3xl font-bold text-txtD1 mb-[20px] md:text-start">
         Our Products
@@ -23,7 +25,9 @@ const Products = () => {
       </section>
 
       {/* Cards section */}
-      <section></section>
+      <section className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-[30px] my-[60px]">
+        <ProductCard />
+      </section>
     </main>
   );
 };

@@ -1,4 +1,4 @@
-import { FaCartShopping, FaLinkedinIn, FaMoneyCheck, FaSquareInstagram, FaTruck, FaUser } from "react-icons/fa6";
+import { FaCartShopping, FaLinkedinIn, FaMoneyCheck, FaRegHeart, FaSquareInstagram, FaTruck, FaUser } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
 import { MdMenuOpen } from "react-icons/md";
 import { PiSunglassesFill } from "react-icons/pi";
@@ -15,4 +15,5 @@ export const allIcons = {
   search: <IoIosSearch />,
   glasses: <PiSunglassesFill />,
   payment: <FaMoneyCheck />,
+  love: <FaRegHeart />,
 };
