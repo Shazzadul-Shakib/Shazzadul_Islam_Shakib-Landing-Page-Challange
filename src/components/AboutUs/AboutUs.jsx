@@ -1,5 +1,7 @@
 import aboutUsImage from "../../assets/abImage.png";
+
 const AboutUs = () => {
+  
   return (
     <main className=" flex flex-col-reverse lg:flex-row justify-center items-center">
       <section className=" w-full lg:w-[60%]  bg-crdBD1 lg:py-[126px] text-balance h-[416px] pl-[50px] pr-[10px] md:h-[516px] md:pl-[100px] md:pr-[55px] lg:h-[616px] xl:pl-[224px] xl:pr-[155px] flex flex-col justify-center items-center">

@@ -3,7 +3,7 @@ import Hero from "./Hero";
 
 const HeroWraper = () => {
   return (
-    <div className="">
+    <div>
       <div>
         <Hero />
       </div>

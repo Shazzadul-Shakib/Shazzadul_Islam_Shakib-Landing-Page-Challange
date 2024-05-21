@@ -22,7 +22,7 @@ export const BottomHero = () => {
           <div className=" hidden md:block lg:hidden">------</div>
           <div className=" hidden lg:block">------------</div>
         </div>
-        <div className=" h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
+        <div className=" hidden md:block h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
       </section>
       {/* Sunglasses */}
       <section>
@@ -40,7 +40,7 @@ export const BottomHero = () => {
       <section className="flex items-center lg:mt-[-10%]">
         <div className=" hidden lg:block">------------</div>
         <div className=" hidden md:block lg:hidden">------</div>
-        <div className=" h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
+        <div className=" hidden md:block h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
       </section>
       {/* Payment */}
       <section>
@@ -58,7 +58,7 @@ export const BottomHero = () => {
       <section className="flex items-center lg:mt-[-10%]">
         <div className=" hidden lg:block">------------</div>
         <div className=" hidden md:block lg:hidden">------</div>
-        <div className=" h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
+        <div className=" hidden md:block h-[15px] w-[15px] rounded-full bg-crdBD1"></div>
       </section>
       {/* Pickup product */}
       <section>

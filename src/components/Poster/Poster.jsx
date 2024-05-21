@@ -6,7 +6,7 @@ import PosterImage4 from "../../assets/pImage4.png";
 
 const Poster = () => {
   return (
-    <section className="my-[120px] w-[90%] grid grid-cols-1 xl:grid-cols-2   lg:w-[72%] mx-auto gap-y-8">
+    <section className="my-[80px] w-[90%] grid grid-cols-1 xl:grid-cols-2 lg:w-[72%] mx-auto gap-y-8">
       <div className="flex flex-col items-center gap-8">
         <Postercard
           image={PosterImage1}

@@ -5,14 +5,13 @@ import "swiper/css/pagination";
 import "./module.hero.css";
 import sliderImage from "../../assets/Image.png";
 import { allIcons } from "../../data/All-icons";
-import { BottomHero } from "./BottomHero";
 
 export default function Hero() {
-  const { cart,truck,payment,glasses,search } = allIcons;
+  const { cart, truck, payment, glasses, search } = allIcons;
 
   return (
     <div className=" h-[30dvh] sm:h-[40dvh] lg:h-[90dvh] flex items-center justify-center bg-gray-100">
-     {/* Vertical slider */}
+      {/* Vertical slider */}
       <Swiper
         direction={"vertical"}
         slidesPerView={1}
@@ -82,7 +81,6 @@ export default function Hero() {
           </div>
         </SwiperSlide>
       </Swiper>
-      
     </div>
   );
 }

@@ -6,7 +6,7 @@ const Products = () => {
   const addToCart = useCartStore((state) => state.addToCart);
   
   return (
-    <main className=" m-[30px] lg:my-[127px] lg:mx-[30px] xl:mx-[200px]">
+    <main className=" m-[30px] lg:my-[80px] lg:mx-[30px] xl:mx-[200px]">
       {/* Header section of Products */}
       <h1 className=" text-center text-3xl font-bold text-txtD1 mb-[20px] md:text-start">
         Our Products

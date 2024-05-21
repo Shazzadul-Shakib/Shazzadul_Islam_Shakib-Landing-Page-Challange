@@ -1,5 +1,4 @@
 import AboutUs from "../components/AboutUs/AboutUs";
-import Postercard from "../components/Cards/Postercard/Postercard";
 import Footer from "../components/Footer/Footer";
 import FooterSm from "../components/Footer/Footer-sm";
 import Header from "../components/Header/Header";
@@ -21,8 +20,8 @@ const Main = () => {
       <section>
         <HeroWraper />
         <Poster />
-        <AboutUs/>
-        <Products/>
+        <AboutUs />
+        <Products />
       </section>
 
       {/* Footer section */}
