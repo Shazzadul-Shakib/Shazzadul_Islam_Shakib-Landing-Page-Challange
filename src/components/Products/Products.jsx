@@ -1,4 +1,5 @@
 import ProductCard from "../Cards/productCard/ProductCard";
+import { ProductsData } from "../../../public/productsData";
 
 const Products = () => {
   return (
@@ -26,7 +27,9 @@ const Products = () => {
 
       {/* Cards section */}
       <section className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-[30px] my-[60px]">
-        <ProductCard />
+        {ProductsData?.map((product) => (
+          <ProductCard key={product.productId} product={product} />
+        ))}
       </section>
     </main>
   );
